@@ -7,7 +7,6 @@
 
 <script>
 import HFooter from "vue-hacktiv8-footer";
-import "./assets/mainPage.css";
 
 export default {
   components: {
