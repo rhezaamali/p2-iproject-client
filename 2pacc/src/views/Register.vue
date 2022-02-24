@@ -76,8 +76,8 @@
 </template>
 
 <script>
-// import "../assets/colorlib-regform-8/fonts/material-icon/css/material-design-iconic-font.min.css";
-// import "../assets/colorlib-regform-8/css/style.css";
+import "../assets/colorlib-regform-8/fonts/material-icon/css/material-design-iconic-font.min.css";
+import "../assets/colorlib-regform-8/css/style.css";
 
 import Swal from "sweetalert2";
 

@@ -61,15 +61,15 @@
 import Swal from "sweetalert2";
 
 // css
-// import "../assets/Login_v2/vendor/bootstrap/css/bootstrap.min.css";
-// import "../assets/Login_v2/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
-// import "../assets/Login_v2/fonts/iconic/css/material-design-iconic-font.min.css";
-// import "../assets/Login_v2/vendor/animate/animate.css";
-// import "../assets/Login_v2/vendor/css-hamburgers/hamburgers.min.css";
-// import "../assets/Login_v2/vendor/animsition/css/animsition.min.css";
-// import "../assets/Login_v2/vendor/select2/select2.min.css";
-// import "../assets/Login_v2/css/util.css";
-// import "../assets/Login_v2/css/main.css";
+import "../assets/Login_v2/vendor/bootstrap/css/bootstrap.min.css";
+import "../assets/Login_v2/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+import "../assets/Login_v2/fonts/iconic/css/material-design-iconic-font.min.css";
+import "../assets/Login_v2/vendor/animate/animate.css";
+import "../assets/Login_v2/vendor/css-hamburgers/hamburgers.min.css";
+import "../assets/Login_v2/vendor/animsition/css/animsition.min.css";
+import "../assets/Login_v2/vendor/select2/select2.min.css";
+import "../assets/Login_v2/css/util.css";
+import "../assets/Login_v2/css/main.css";
 
 export default {
   name: "Login",
