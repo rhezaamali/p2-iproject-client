@@ -1,58 +1,47 @@
 <template>
-  <div class="limiter">
-    <div class="container-login100 bg-dark">
-      <div class="wrap-login100">
-        <form class="login100-form validate-form" v-on:submit.prevent="login">
-          <span class="login100-form-title p-b-26"> Welcome </span>
-          <span class="login100-form-title p-b-48">
-            <!-- <i class="zmdi zmdi-font">2Pac</i> -->
-            <i>2 <span class="bg-dark text-white p-1.5">Pac</span></i>
-          </span>
+  <div class="container">
+    <div class="login-card">
+      <form class="login-form" v-on:submit.prevent="login">
+        <h1>Welcome</h1>
+        <span class="welcome"> Welcome </span>
 
-          <div
-            class="wrap-input100 validate-input"
-            data-validate="Valid email is: a@b.c"
-          >
-            <input class="input100" type="text" name="email" v-model="email" />
-            <span class="focus-input100" data-placeholder="Email"></span>
-          </div>
+        <div class="login-logo">
+          <h1>2 <span class="pac">Pac</span></h1>
+        </div>
 
-          <div
-            class="wrap-input100 validate-input"
-            data-validate="Enter password"
-          >
-            <span class="btn-show-pass">
-              <i class="zmdi zmdi-eye"></i>
-            </span>
-            <input
-              class="input100"
-              type="password"
-              name="pass"
-              v-model="password"
-            />
-            <span class="focus-input100" data-placeholder="Password"></span>
-          </div>
+        <div class="login-input">
+          <input
+            class="input100"
+            type="text"
+            placeholder="Email"
+            name="email"
+            v-model="email"
+          />
+        </div>
 
-          <div class="container-login100-form-btn">
-            <div class="wrap-login100-form-btn">
-              <div class="login100-form-bgbtn"></div>
-              <button class="login100-form-btn bg-dark">Login</button>
-            </div>
-          </div>
+        <div class="login-input">
+          <input
+            class="input100"
+            type="password"
+            placeholder="Password"
+            name="pass"
+            v-model="password"
+          />
+        </div>
 
-          <div class="text-center p-t-115">
-            <span class="txt1"> Don’t have an account? </span>
+        <div class="wrap-login100-form-btn">
+          <button class="login100-form-btn bg-dark">Login</button>
+        </div>
+        <br />
 
-            <a
-              class="txt2"
-              href="#"
-              v-on:click.prevent="changePage('/register')"
-            >
-              Sign Up
-            </a>
-          </div>
-        </form>
-      </div>
+        <div class="login-register">
+          <span class="txt1"> Don’t have an account? </span>
+
+          <a class="txt2" href="#" v-on:click.prevent="changePage('/register')">
+            Sign Up
+          </a>
+        </div>
+      </form>
     </div>
   </div>
 </template>
@@ -61,15 +50,6 @@
 import Swal from "sweetalert2";
 
 // css
-import "../assets/Login_v2/vendor/bootstrap/css/bootstrap.min.css";
-import "../assets/Login_v2/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
-import "../assets/Login_v2/fonts/iconic/css/material-design-iconic-font.min.css";
-import "../assets/Login_v2/vendor/animate/animate.css";
-import "../assets/Login_v2/vendor/css-hamburgers/hamburgers.min.css";
-import "../assets/Login_v2/vendor/animsition/css/animsition.min.css";
-import "../assets/Login_v2/vendor/select2/select2.min.css";
-import "../assets/Login_v2/css/util.css";
-import "../assets/Login_v2/css/main.css";
 
 export default {
   name: "Login",
@@ -110,4 +90,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped></style>

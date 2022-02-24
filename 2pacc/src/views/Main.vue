@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import "../assets/mainPage.css";
 import Swal from "sweetalert2";
 
 import Navbar from "../components/Navbar.vue";

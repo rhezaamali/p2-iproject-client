@@ -1,0 +1,17 @@
+h1 {
+  color: black;
+}
+
+.container {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+}
+
+.login-card {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  align-self: center;
+  margin: auto;
+}

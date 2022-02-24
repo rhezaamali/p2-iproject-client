@@ -33,12 +33,7 @@ export default new Vuex.Store({
     register(context, payload) {
       return new Promise((resolve, reject) => {
         axios
-          .post("/register", {
-            username: payload.username,
-            email: payload.email,
-            password: payload.password,
-            yearOfBirth: payload.yearOfBirth,
-          })
+          .post("/register", payload)
           .then((resp) => {
             resolve(resp);
           })
