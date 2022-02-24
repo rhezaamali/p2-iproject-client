@@ -1,5 +1,5 @@
 <template>
-  <button v-on:click.prevent="fetchMemesDb(category.id)">
+  <button class="sidebar-button" v-on:click.prevent="fetchMemesDb(category.id)">
     {{ category.name }}
   </button>
 </template>
@@ -16,4 +16,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.sidebar-button {
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: black;
+  opacity: 80%;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+</style>
