@@ -214,16 +214,6 @@ main {
   font-size: 30px;
 }
 
-.categories button {
-  width: 90%;
-  margin-bottom: 20px;
-  background-color: black;
-  opacity: 60%;
-  color: white;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 .addNewMeme img {
   width: 50px;
   margin-left: 10px;
@@ -383,4 +373,16 @@ input {
   color: white;
   border-radius: 5px;
   width: 50%;
+}
+
+/* categories */
+
+.categories button {
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: black;
+  opacity: 80%;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
 }
